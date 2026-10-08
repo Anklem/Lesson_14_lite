@@ -1,0 +1,111 @@
+body, h1, h2, h3, p, ul {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Helvetica, Arial, sans-serif', sans-serif;
+  color: #333;
+  background-color: #afafaf;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  background-color: #6de85a;
+  color: #0a0a0a;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5rem;
+}
+
+header p {
+  font-size: 1.2rem;
+}
+
+footer {
+  background-color: #7a3474;
+  color: #f0f6ef;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  font-size: 1rem;
+}
+
+section {
+  padding: 20px 0;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+section p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+section .job {
+  margin-bottom: 20px;
+}
+
+section .job h3 {
+  font-size: 1.5rem;
+  color: #2ecc71;
+}
+
+section .job ul {
+  list-style: disc;
+  margin-left: 20px;
+}
+
+section .about img {
+   float: left;
+   margin-right: 20px;
+}
+
+section .projects table {
+  width: 100%;
+  border: 2px dotted #333;
+  border-collapse: collapse;
+}
+
+section .projects th, td {
+  border: 1px solid #0a0a0a;
+  padding: 8px 12px;
+}
+
+.button {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Helvetica, Arial, sans-serif", sans-serif;
+  transition: background-color 0.3s ease;
+  display: inline-block;
+  margin: 20px;
+}
+
+.button:hover {
+  background-color: #217dbb;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+}
